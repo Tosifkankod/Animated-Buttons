@@ -1,0 +1,138 @@
+body{
+    padding: 5px;
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    /* font-family: 'Open Sans', sans-serif; */
+    font-family: 'Roboto', sans-serif;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+button{
+    width: 182px;
+    padding: 5px 30px;
+    border: 0;
+    background: transparent;
+    border: .5px solid rgb(218, 217, 217);
+    font-size: 20px;
+    font-weight: 100;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 20px;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    /* mix-blend-mode:multiply; */
+}
+.black::after{
+    content: "";
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    background: black;
+    left: 50%;
+    border-radius: 100%;
+    bottom: -305%;
+    transform: translateX(-50%);
+    transition: all .5s ease;
+    z-index: -1;
+}
+
+.black:hover::after {
+    width: 200px;
+    height: 150px;
+    bottom: -100%;
+
+
+}
+.black:hover {
+    color: white;
+}
+
+
+/* ORANGE */
+.orange::after{
+    content: "";
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    background: #ff4d00;
+    left: 50%;
+    border-radius: 100%;
+    bottom: -305%;
+    transform: translateX(-50%);
+    transition: all .5s ease;
+    z-index: -1;
+}
+
+.orange:hover::after {
+    width: 200px;
+    height: 150px;
+    bottom: -100%;
+
+
+}
+.orange:hover {
+    color: white;
+}
+
+
+/* megenta */
+.magenta::after{
+    content: "";
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    background: #CA1F7B;
+    left: 50%;
+    border-radius: 100%;
+    bottom: -305%;
+    transform: translateX(-50%);
+    transition: all .5s ease;
+    z-index: -1;
+}
+
+.magenta:hover::after {
+    width: 200px;
+    height: 150px;
+    bottom: -100%;
+
+
+}
+.magenta:hover {
+    color: white;
+}
+
+
+/* purple */
+.purple::after{
+    content: "";
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    background: #8800C7;
+    left: 50%;
+    border-radius: 100%;
+    bottom: -305%;
+    transform: translateX(-50%);
+    transition: all .5s ease;
+    z-index: -1;
+}
+
+.purple:hover::after {
+    width: 200px;
+    height: 150px;
+    bottom: -100%;
+
+
+}
+.purple:hover {
+    color: white;
+}
+
